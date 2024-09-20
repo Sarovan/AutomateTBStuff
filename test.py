@@ -1,6 +1,4 @@
-import re
+import pyinputplus as pyip
 
-phoneNumRegex = re.compile(r"First Name: (.*) Last Name: (.*)")
-mo = phoneNumRegex.search("First Name: Al Last Name: Sweigart")
-if mo:
-    print(mo.group())
+number = pyip.inputNum(allowRegexes=[r"(I|V|X|L|C|D|M)+", r"zero"])
+print(number)

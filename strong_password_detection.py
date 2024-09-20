@@ -1,6 +1,6 @@
 import re
 
-password = "as767Aaa"
+password = input("Enter a password: ")
 
 
 def assess_password(text):

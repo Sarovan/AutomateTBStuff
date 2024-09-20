@@ -13,6 +13,4 @@ for word in message:
         word += "yay"
         translated_message += word + " "
     else:
-        
-
-print(translated_message)
+        print(translated_message)
